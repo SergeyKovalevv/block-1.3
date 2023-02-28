@@ -166,6 +166,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
   margin-bottom: 35px;
 }
 .main-inform__block__picture {
+  background-image: url(../img/_MG_3223.png);
   width: 100%;
 }
 .main-inform__txt {
