@@ -238,6 +238,9 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
     display: flex;
     margin-top: auto;
   }
+  .services__menu {
+    overflow: hidden;
+  }
   .services__title__pc {
     display: block;
     font-family: "TT Lakes";
