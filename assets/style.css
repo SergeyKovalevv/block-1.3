@@ -185,6 +185,7 @@ border: none;
 .about__show-more {
   display: flex;
   align-items: center;
+  position: absolute;
   background-color: #F8F8F8;
   border: none;
   min-width: 132px;
