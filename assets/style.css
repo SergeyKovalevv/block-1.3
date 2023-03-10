@@ -171,7 +171,7 @@ border: none;
 
 .main-inform__block {
   width: 100%;
-  margin-bottom: 35px;
+  margin-top: 60px;
 }
 .main-inform__block__picture {
   width: 100%;
@@ -229,6 +229,7 @@ border: none;
   .main-inform__block {
     margin-right: 25px;
     margin-bottom: 14px;
+    margin-top: 0;
   }
   .main-inform__block__picture {
     width: 360px;
