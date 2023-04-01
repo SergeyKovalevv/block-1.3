@@ -26,7 +26,6 @@ a:focus, button:focus {
 .action__button:focus {
   border-radius: 50%;
 }
-
 .header {
   display: flex;
   align-items: center;
@@ -51,7 +50,6 @@ border: none;
 .header__burger {
   margin-right: 17px;
 }
-
 
 .header__burger-logo {
   background: none;
@@ -82,11 +80,8 @@ border: none;
   position: relative;
   align-items: center;
 }
-.main__services {
-  margin-top: 24px;
-  margin-left: 16px;
-}
-.services__menu-item:nth-child(7) {
+
+.services-menu__item:nth-child(7) {
   display: none;
 }
 
@@ -105,7 +100,6 @@ border: none;
 }
 .services {
   display: flex;
-  margin-top: 24px;
 }
 .services__title {
   font-family: "TT Lakes";
@@ -126,7 +120,7 @@ border: none;
   transform: matrix(-1, 0, 0, 1, 0, 0);
   left: 0;
 }
-.services__menu {
+.services-menu {
   display: flex;
   flex-wrap: nowrap;
   font-size: 16px;
@@ -139,27 +133,27 @@ border: none;
   
   overflow: scroll;
 }
-.services__menu-item {
+.services-menu__item {
   width: 100%;
   margin-top: auto;
   margin-bottom: auto;
 }
-.services__menu-item:nth-child(6) {
+.services-menu__item:nth-child(6) {
   margin-right: 0;
 }
-.services__menu-btn {
+.services-menu__btn {
   padding: 8px 22px;
   font-size: 16px;
   border: none;
   background-color: #F8F8F8;
 }
-.services__menu-btn:active {
+.services-menu__btn:active {
   border: 1px solid #B8FFEC;
   border-radius: 6px;
   padding: 8px 9px 8px 16px;
   background-color: white;
 }
-.services__menu-btn--active {
+.services-menu__btn--active {
   padding: 8px 9px 8px 16px;
   width: 246px;
   height: 40px;
@@ -241,7 +235,7 @@ border: none;
   .header {
     display: none;
   }
-  .main__services {
+  .main__services .services {
     display: flex;
     margin: 0;
     align-items: center;
@@ -249,9 +243,7 @@ border: none;
   .services__main-menu {
     display: flex;
     margin-left: auto;
-    margin-right: 32px;
-    margin-top: 32px;
-    margin-bottom: 32px;
+
   }
   h1 {
     margin: 0;
@@ -268,19 +260,20 @@ border: none;
     margin-right: 32px;
 
   }
+  
   .action__button--checkstatus {
     display: flex;
     border: none;
     background-color: #F8F8F8;
     align-items: center;
-    
+    margin-right: 32px;
   }
   .button__about {
     font-size: 1.1rem;
     font-weight: 500;
     padding: 8px;
   }
-  .services__menu {
+  .services-menu {
     overflow: hidden;
   }
   .services__menu-item:nth-child(7) {
